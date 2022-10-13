@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>1조 오디오 페이지</title>
+<title>1조량 죽여조</title>
 <meta name="description"
 	content="Some liquid distortion effects applied to an image slideshow using canvas, PixiJS and Greensock" />
 <meta name="keywords"
@@ -67,23 +67,12 @@
 		<div class="content content--fixed">
 			<header class="codrops-header">
 				<div class="codrops-links">
-					<a class="codrops-icon codrops-icon--prev" href="index.html"
+					<a class="codrops-icon codrops-icon--prev" href="generic1.html"
 						title="Back to the Home"><svg class="icon icon--arrow">
-							<use xlink:href="#icon-arrow"></use></svg></a> <a
-						class="codrops-icon codrops-icon--drop"><svg
-							class="icon icon--drop">
-							<use xlink:href="#icon-drop"></use></svg></a>
+							<use xlink:href="#icon-arrow"></use></svg></a> 
 				</div>
 				<h1 class="codrops-header__title">HOME</h1>
-				<p class="info">Click &amp; hold on the image</p>
 			</header>
-			<div class="github">
-				<a onclick="start()" type="button">재생</a>
-			</div>
-
-			<audio id="myAudio" autoplay>
-				<source id="audioSrc" src="sounds/1.mp3" type="audio/mpeg" />
-			</audio>
 
 		</div>
 		<div class="content">
@@ -166,16 +155,9 @@
 	
 	<script>
     let allMusic = [
-    	{name : "Joker (Feat. JAMIE)", artist : "BIG Naughty(서동현)", img : "music-1", audio : "music-1"},
-        {name : "내 기쁨은 너가 벤틀리를 끄는 거야", artist : "김승민", img : "music-2", audio : "music-2"},
-        {name : "Misfits (Feat. MELOH, Kid Wine)", artist : "Skinny Brown", img : "music-3", audio : "music-3"},
-        {name : "검정색하트 (Feat. Leellamarz, BE'O)", artist : "TOIL", img : "music-4", audio : "music-4"},
-        {name : "우리서로사랑하지는말자", artist : "기리보이", img : "music-5", audio : "music-5"},
-        {name : "BROKEN FERRARI", artist : "호미들", img : "music-6", audio : "music-6"},
-        {name : "만남은 쉽고 이별은 어려워 (Feat. Leellamarz) (Prod. TOIL)", artist : "베이식 (Basick)", img : "music-7", audio : "music-7" },
-        {name : "거짓말 (Feat. BIG Naughty)", artist : "김승민", img : "music-8", audio : "music-8"},
-        {name : "이혼서류", artist : "기리보이", img : "music-9", audio : "music-9" },
-        {name : "봄 (Feat. ASH ISLAND, Skinny Brown)", artist : "TOIL", img : "music-10", audio : "music-10" }]
+    	{name : "libeccio", artist : "christo4us", img : "music-3", audio : "1"},
+        {name : "october", artist : "Omar_Alex", img : "music-3", audio : "2"},
+        {name : "Silence", artist : "LWSLH", img : "music-3", audio : "3"}]
     </script>
     <script>
         const musicWrap = document.querySelector(".wrap__music");
