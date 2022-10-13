@@ -6,7 +6,7 @@
         }
         :root {
             --pink : #ffffff;
-            --violet : #9f6ea3;
+            --violet : #000000;
             --white : #fff;
             --lightshadow : rgba(0,0,0,0.15);
             --lightblack : #515c6f;
@@ -15,7 +15,7 @@
         }
         body {
             height: 100vh;
-            background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
+            background: linear-gradient(var(--pink) 0%, var(--violet) 0%);
         }
         .wrap__music {
             display: flex;
@@ -30,7 +30,7 @@
             overflow: hidden;
             position: relative;
             border-radius: 15px;
-            background: var(--white);
+            background: #ffffffa9;
             box-shadow: 0 6px 15px var(--lightshadow);
         }
         .music__top {
@@ -41,10 +41,12 @@
         .music__top i {
             font-size: 30px;
             color: var(--lightblack);
+            align-items: center;
+            opacity: 0;
         }
         .music__top h3 {
             font-size: 18px;
-            color: var(--lightblack);
+            color: #000000;
             font-weight: 500;
         }
         .music__img {
@@ -54,6 +56,7 @@
             border-radius: 15px;
             margin-top: 25px;
             box-shadow: 0 6px 12px var(--lightshadow);
+            opacity: 0.5;
         }
         .music__img img {
             width: 100%;
@@ -142,13 +145,13 @@
         }
         .music__list {
             position: absolute;
-            background: var(--white);
+            background: #ffffffd5;
             width: 100%;
             left: 0; bottom: -400px;
             z-index: 10;
             border-radius: 15px;
             padding: 15px 30px;
-            box-shadow: 0 -3px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 -3px 10px rgba(255, 255, 255, 0.842);
             transition: all 0.15s ease-out;
             opacity: 0;
             pointer-events: none;
@@ -188,7 +191,7 @@
             margin-bottom: 5px;
         }
         .music__list .list > ul > li.playing {
-            color: var(--pinkshadow);
+            color: #ff7b00;
         }
         .music__list .list > ul > li > div em {
             font-style: normal;
