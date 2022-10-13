@@ -178,8 +178,9 @@ main {
 	height: 100vh;
 	padding: 1.5em;
 	pointer-events: none;
+	justify-items: center;
 	grid-template-columns: 50% 50%;
-	grid-template-rows: auto auto 4em;
+	grid-template-rows: auto auto auto;
 	grid-template-areas: 'header ...'
 	'... ...'
 	'github demos';
@@ -187,6 +188,7 @@ main {
 
 .content--fixed a {
 	pointer-events: auto;
+	
 }
 
 /* Header */
