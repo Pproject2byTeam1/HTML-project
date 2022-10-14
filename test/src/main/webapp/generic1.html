@@ -34,6 +34,11 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="generic1.html">HOME</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="videoplyer.html">Video</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="audioTest.html">Audio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <div class="portfolio-item nav-link py-3 px-0 px-lg-3 text-white" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                               plug
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -195,18 +200,24 @@
                                     <!-- Portfolio Modal - Text-->
 
                                     <!-- 사진 파일 업로드 -->
-                                    <form method="post" enctype="multipart/form-data">
+                                    <!-- <form method="post" enctype="multipart/form-data">
                                         <div class="button" style="display: flex; justify-content: center;">
                                             <label style="cursor: pointer; font-size: 1em" for="fileUpload_img">
                                                 👉 CLICK HERE! 👈
                                             </label>
                                         </div>
-                                        <input type="file" id="fileUpload_img" name="fileUpload_img" accept="image/*" style="padding: 0; visibility: hidden;">
+                                        
                                     </form>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <button class="btn btn-primary" for="fileUpload_img">
+                                        CLICK HERE!
+                                    </button> -->
+
+                                    <div class="mb-12">
+                                        <!-- <label for="fileUpload_img" class="form-label">Default file input example</label> --><br>
+                                        <input class="form-control" type="file" id="fileUpload_img" name="fileUpload_img" accept="image/*">
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
