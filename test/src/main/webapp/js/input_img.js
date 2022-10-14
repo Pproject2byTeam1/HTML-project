@@ -1,6 +1,8 @@
-const fileInput = document.getElementById("fileUpload_img");
 
-const handleFiles = () => {
+
+  const fileInput = document.getElementById("fileUpload_img");
+
+  const handleFiles = () => {
   const selectedFile = [...fileInput.files];
   const fileReader = new FileReader();
 
@@ -15,6 +17,8 @@ const handleFiles = () => {
 };
 
 fileInput.addEventListener("change", handleFiles);
+
+
 
 
 // https://developer-talk.tistory.com/330
